@@ -16,3 +16,26 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* task 02 */
+
+.timer {
+  display: flex;
+  margin-top: 30px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.value {
+  font-size: 30px;
+  color: blue;
+}
